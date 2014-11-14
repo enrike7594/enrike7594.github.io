@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ejercicio ahorcado</title>
+        <link href="estilos.css" rel="stylesheet" media="screen">
+        <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="javascript.js">
+            nuevaPartida();
+        </script>
+        
+    </head>
+    <body>
+        <div id="contenedor">
+            
+        <header>
+            Ahorcado
+        </header>
+        <div id="perdido"></div>
+        <section>
+            <canvas id="imagen">
+            </canvas>
+            <div id="lateral">
+                <div id="vidas">
+                    <script type="text/javascript">
+                        imprimeVidas();
+                    </script>
+                </div>
+                <div id="palabra">
+                    <script type="text/javascript">
+                        rellenaPalabra();
+                    </script>
+                </div>
+                <div id="botones">
+                    <script type="text/javascript">
+                        rellenaBotones();
+                    </script>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h5>Diseñado por Enrique Avivar Rosino</h5>
+        </footer>
+        </div>
+    </body>
+</html>
